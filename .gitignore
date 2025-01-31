@@ -10,4 +10,5 @@ __pycache__/
 #ignore the docker file
 docker-compose.yml
 
-
+# Ignore .DS_Store files (macOS)
+.DS_Store

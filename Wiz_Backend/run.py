@@ -9,3 +9,5 @@ CORS(app, supports_credentials=True, origins="http://localhost:3000")
 # run app with debug
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=6000)
+
+#This commment needs to be removed

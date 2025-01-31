@@ -7,3 +7,7 @@
 # Ignore pychache 
 __pycache__/
 
+#ignore the docker file
+docker-compose.yml
+
+

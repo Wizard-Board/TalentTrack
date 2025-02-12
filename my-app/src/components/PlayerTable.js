@@ -8,7 +8,7 @@ const PlayerTable = () => {
     const [selectedPlayer, setSelectedPlayer] = useState(null);
 
     useEffect(() => {
-        axios.get('http://localhost:6000/api/v1/players')
+        axios.get('http://localhost:5001/api/v1/players')
             .then(response => setPlayers(response.data))
             .catch(error => console.error('Failed to fetch players:', error));
     }, []);
